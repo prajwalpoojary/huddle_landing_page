@@ -1,0 +1,31 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $fontBody;
+    color: #fff;
+    background: $voilet url('/images/bg-mobile.svg') no-repeat top right / contain;
+}
+
+a, a:visited, a:active {
+    text-decoration: none;
+}
+
+// Button
+button, .button {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 15px 70px;
+    border: none;
+    border-radius: 50px;
+    color: $voilet;
+    background: #fff;
+}
