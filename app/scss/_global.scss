@@ -12,7 +12,12 @@ body {
     padding: 0;
     font-family: $fontBody;
     color: #fff;
-    background: $voilet url('/images/bg-mobile.svg') no-repeat top right / contain;
+    background: $voilet url('images/bg-mobile.svg') no-repeat top right / contain;
+
+    @include breakpoint-up(large) {
+        background: $voilet url('images/bg-desktop.svg') no-repeat top left / cover;
+
+    }
 }
 
 a, a:visited, a:active {

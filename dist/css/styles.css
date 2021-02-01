@@ -12,7 +12,13 @@ body {
   padding: 0;
   font-family: "Open Sans", sans-serif;
   color: #fff;
-  background: #674baf url("/images/bg-mobile.svg") no-repeat top right/contain;
+  background: #674baf url("images/bg-mobile.svg") no-repeat top right/contain;
+}
+
+@media screen and (min-width: 992px) {
+  body {
+    background: #674baf url("images/bg-desktop.svg") no-repeat top left/cover;
+  }
 }
 
 a, a:visited, a:active {
